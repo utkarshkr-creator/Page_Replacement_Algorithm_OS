@@ -1,3 +1,4 @@
+//optimal page replacement
 #include<iostream>
 #include <algorithm>
 #include<map>
@@ -10,6 +11,8 @@ bool find_page(vector<int> &Page_Frame,int page){
 return false;
 }
 int main(){
+    // optimal page replacement 
+    cout<<"Enter frames number:"<<endl;
   int frames;cin>>frames;  
   int No_of_Page_refernces;cin>>No_of_Page_refernces;
   vector<int> Page_Frame;
