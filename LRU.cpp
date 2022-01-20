@@ -1,3 +1,4 @@
+// Lest recent use page replacment algorithm 
 #include<iostream>
 #include <algorithm>
 #include <vector>
@@ -9,6 +10,7 @@ int find_page(vector<int> &Page_Frame,int page){
      return -1;
 }
 int main(){
+     // LRU Algo
   int frames;cin>>frames;  
   int No_of_Page_refernces;cin>>No_of_Page_refernces;
   vector<int> Page_Frame;
